@@ -1,0 +1,19 @@
+{
+  "name": "winterishere",
+  "version": "1.0.0",
+  "description": "AND IT'S COLD!",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/legalamb77/WinterIsHere.git"
+  },
+  "author": "Ted M",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/legalamb77/WinterIsHere/issues"
+  },
+  "homepage": "https://github.com/legalamb77/WinterIsHere#readme"
+}
