@@ -1,8 +1,10 @@
-var audio = new Audio('assets/winterishere.mp3');
+var sound = new Howl({
+  src: ['assets/winterishere.mp3']
+});
 
 function winterNow(event){
-    //play sound
-    audio.play();
+    //play sound using howler
+    sound.play();
     //display image where the click is
 }
 
