@@ -9,8 +9,10 @@ function winterNow(event){
     var newImage = document.createElement("img");
     newImage.setAttribute('src', 'assets/Coldwraith.png');
     newImage.setAttribute('class', 'overlays');
-    newImage.style.left = event.clientX + "px";
-    newImage.style.top = event.clientY + "px";
+    var x=event.clientX-100;
+    var y=event.clientY-100;
+    newImage.style.left = x + "px";
+    newImage.style.top = y + "px";
     console.log(event.clientX);
     document.body.appendChild(newImage);
 }
